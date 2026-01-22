@@ -30,6 +30,7 @@ User Interface
   CLI
   GUI
 ~~~
+
 !@Cisco
 conf t
  ip http server
@@ -39,7 +40,6 @@ conf t
  restconf
  end
 ~~~
-
 
 Decrypt TLS Traffic
 Environment Variables > New
