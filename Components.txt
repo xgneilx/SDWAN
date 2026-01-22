@@ -29,7 +29,6 @@ Management Plane - the instance where the user interacts with the device.
 User Interface
   CLI
   GUI
-
 ~~~
 !@Cisco
 conf t
@@ -37,6 +36,7 @@ conf t
  ip http secure-server
  ip http authentication local
  username admin priv 15 secret pass
+ restconf
  end
 ~~~
 
